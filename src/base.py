@@ -8,7 +8,6 @@ from typing import Any, Optional, List
 import pandas as pd
 import pyflink
 import yfinance as yf
-from lxml.xsltext import self_node
 from pyflink.common import Types, Time
 from pyflink.common.watermark_strategy import TimestampAssigner, WatermarkStrategy
 from pyflink.datastream import StreamExecutionEnvironment, WindowFunction
